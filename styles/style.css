@@ -142,6 +142,9 @@ body{
         flex-direction: column-reverse;
         padding: 5%
     }
+    .aboutimg{
+        width: 60%
+    }
 
 }
 
