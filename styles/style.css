@@ -63,7 +63,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    
+
 }
 .tecnologias{
     padding-top: 45px;
@@ -192,7 +192,10 @@ img{
     color: var(--cor-secundaria);
 
 }
+.linkshardware:hover{
+    color: rgb(71, 172, 255);
 
+}
 .apresentacao__about{
     padding: 5% 8%;
     display: flex;
@@ -208,6 +211,7 @@ img{
     flex-wrap: wrap;
     margin: 0%;
     max-width: 1600px;
+    padding-left: 10px;
 
 }
 .conteudos > div{
@@ -230,3 +234,10 @@ img{
     text-align: center;
 
 }
+
+.conteudos a :hover{
+    scale: 1.1;
+    transition: .5s;
+    
+}
+
