@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +8,17 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
+<!-- cabeçalho do projeto -->
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__principal">
             <a class="cabecalho__links" href="index.html">Home</a>
-            <a class="cabecalho__links" href="about.html">Sobre</a>
+            <a class="cabecalho__links" href="#about">Sobre</a>
+            <a class="cabecalho__links" href="#projetos">Meus Projetos</a>
         </nav>
-
     </header>
+
+    <!-- Começo -->
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Muito prazer eu sou o Gallego!
@@ -36,7 +38,6 @@
             <img class="icones__tec" src="./assets/icons8-c-100.png" alt="icon c#">
             <img class="icones__tec" src="./assets/icons8-javascript-100.png" alt="icon js">
 
-
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Minhas redes</h2>
                 <a class="apresentacao__links__link" href="https://github.com/gabriel-galleg0">
@@ -49,11 +50,85 @@
                 </a>
             </div>
         </section>
-        <img class="eu" src="./img/foto eu.jpg" alt="Imagens de projetos do Gallego">
+        <img class="eu" src="img/desenhofofo.png" alt="Imagens de projetos do Gallego">
     </main>
+<!-- Fim da "Página Home" -->
+
+<!-- Inicio sobre -->
+<section class="apresentacao_about" id="about">
+    <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">Sobre o Programador</h1>
+
+        <p class="apresentacao__conteudo__texto__about" >Muito prazer me chamo Gabriel José, tenho 18 anos e sou estudante
+            de progamação. Comecei minhas "aventuras" no mundo dos códigos quando tinha um nintendo 3ds 
+            e resolvi desbloquear ele para jogar alguns jogos que na época não tinha condições de comprar.
+<br>
+<br>
+            Sou musicista, gosto de desenhar, assistir filmes, séries, peças teatrais, animes e jogar.
+            Tenho um pé voltado ao Back-end, porém gosto e estudo front-end. 
+<br>
+<br>
+            Sempre fui amante de jogos e tecnologias, então por muito tempo pesquisei e descobri coisas sobre.
+            Justamente por isso um dos meus sonhos é de produzir um jogo plataforma com desenhos feitos a mão e 
+            músicas produzidas em casa.
+<br>
+<br>
+            Estou em busca de ingressar no mercado de trabalho como desenvolvedor. Com isso evoluindo minhas práticas na programação e aprendendo cada dia mais com a rotina de trabalho.
+        </p>
+<br>
+<br>
+        <h1 class="apresentacao__conteudo__titulo">Meu Setup</h1>
+        
+        <ul class="itens__hardware">
+            <li><a class="linkshardware" href="https://www.gigabyte.com/br/Motherboard/B450M-DS3H-V2-rev-1x#kf">Placa mãe: B540M DS3H V2</a> </li>  
+            <li><a class="linkshardware" href="https://www.gigabyte.com/br/Graphics-Card/GV-N1656OC-4GD-rev-10#kf">Placa de Vídeo: Gtx 1650</a></li>
+            <li><a class="linkshardware" href="https://www.intel.com.br/content/www/br/pt/products/sku/199278/intel-core-i510400f-processor-12m-cache-up-to-4-30-ghz/specifications.html">Processador: Intel core I5-10400F</a></li>  
+            <li><a class="linkshardware" href="https://www.corsair.com/es/pt/p/psu/cp-9020155-ww/rmx-white-series-rm750x-750-watt-80-plus-gold-certified-fully-modular-psu-ww-cp-9020155-ww">Corssair 750w gold</a></li>
+           <li><a class="linkshardware" href="https://www.kingston.com/br/memory/gaming/kingston-fury-beast-ddr4-memory">2 Pentes de memória Ram da hyperx com 8gb cada </a></li>
+        </ul>  
+<br>
+        <h1 class="apresentacao__conteudo__titulo">Periféricos</h1>
+        <ul class="itens__hardware">
+            <li><a class="linkshardware" href="https://www.redragon.com.br/kumarak552ansi">Teclado Ajazz AK820 Pro </a></li>
+            <li><a class="linkshardware" href="https://www.redragon.com.br/storm-elite">Mouse Attack Shark X3</a></li>
+            <li><a class="linkshardware" href="https://www.pichau.com.br/monitor-gamer-multi-warrior-shin-kai-24-pol-va-curvo-fhd-1ms-165hz-freesync-hdmi-dp-mn103?gclid=CjwKCAjwqZSlBhBwEiwAfoZUIKatyYwm52MZTocuSJvksjObzA3mgFfY552PpCydyW8n5nqku1hrKxoCZ2wQAvD_BwE">Monitor Warrior 24 Curvo</a></li>
+            <li><a class="linkshardware" href="https://row.hyperx.com/pt-BR/collections/gaming-headsets/products/hyperx-cloud-stinger-core-pc?variant=40911970664653">Headset Cloud Stinger Core</a></li>
+        </ul>
+    </section>
+</section>
+<!-- Final Sobre -->
+
+<!-- Início meus projetos -->
+    <section class="apresentacao_conteudo_flex" id="projetos">
+  <h1 class="apresentacao__conteudo__titulo">Alguns dos projetos que produzi e estou produzindo</h1> 
+
+        <div class="conteudos">
+        <div>
+            <a href="https://github.com/gabriel-galleg0/Api.Livraria_express-MongoDB"><img src="img/api2.jpg"></a>
+            <p class="apresentacao__conteudo__texto_projetos">Api feita com Javascript, com foco em um e-commerce de livros.<br>
+                Com integração ao banco de dados MongDB</p>
+        </div>
+            <div>
+        <a href="https://github.com/gabriel-galleg0/Api_de_filmes"><img src="img/api1.jpg" alt="Imagem do projeto com C#"></a>
+        <p class="apresentacao__conteudo__texto_projetos">Api programada em C# possuindo funções como o
+            cadastro de Filmes, Sessções e cinemas em um banco de dados</p>        
+    </div>
+                <div>
+                    <a href="https://site-de-livros-gallego.vercel.app"><img src="img/books.jpg" alt="Página Inicial GallegoBooks"></a>
+                    <p class="apresentacao__conteudo__texto_projetos">Home page de um e-commerce de livros,
+                        com HTML e CSS resposivos</p>
+                </div>
+                    <div>
+                        <a href="https://github.com/gabriel-galleg0/BytebankAdm"><img src="img/api3.jpg"></a>
+                        <p class="apresentacao__conteudo__texto_projetos">Api para configuração de um banco digital</p>
+                    </div>      
+                </div>
+</section>
+</section>
+
+<!-- Footer -->
     <footer class="rodape">
         <p>Feito por Gabriel Gallego</p>
     </footer>
 </body>
-
 </html>

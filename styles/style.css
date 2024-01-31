@@ -7,33 +7,35 @@
     --cor-hover: #526D82;
 
 }
-/*282727
-ffffff
-9b24b0
-*/
+html{
+    scroll-behavior: smooth;
 
+}
 *{
     margin: 0%;
     padding: 0%;
-}
 
+}
 body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     
 }
-
-.cabecalho{
-    padding: 2% 0% 0% 15% ;
+img{
+    max-width: 100%;
 
 }
+.cabecalho{
+    padding: 2% 0% 0% 15% ;
+   
 
+}
 .cabecalho__principal{
     display: flex;
     gap: 80px;
+    position: fixed;
 }
-
 .cabecalho__links{
     font-family: 'Montserrat', sans-serif;
     color: var(--cor-terciaria);
@@ -41,41 +43,39 @@ body{
     text-decoration: none;
 
 }
-
-
 .apresentacao__conteudo__titulo{
     color: var(--cor-terciaria);
     font-size: 2.5rem;
     padding-bottom: 35px;
    
 }
-
 .apresentacao{
     padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
+    
 }
-
 .apresentacao__conteudo__texto{
     width: 80%;
     font-size: 1.80rem;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
 }
-
 .tecnologias{
     padding-top: 45px;
     color: var(--cor-terciaria); 
     font-size: 1.87rem;
+
 }
 .apresentacao__links__subtitulo{
     font-size: 2.18rem;
     padding-top: 30px;
-}
 
+}
 .apresentacao__links{
     
     display: flex;
@@ -83,14 +83,13 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-}
 
+}
 .eu{
     border: var(--cor-hover);
-    border-style: dotted;
-    width: 45%;
-}
+    width: 45%; 
 
+}
 .apresentacao__links__link{
     display: flex;
     justify-content: center;
@@ -105,21 +104,36 @@ body{
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
-}
 
+}
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
-}
 
+}
 .rodape{
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
-    padding: 25px;
+    padding-top: 9px;
+    padding-bottom: 18px;
     text-align: center;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
-}
+    height: 13px;
+    margin: 0%;
 
+}
+.imagens_textos{
+    display: flex;
+    justify-content: space-between;
+
+}
+.apresentacao__conteudo__texto_projetos{
+    padding: 1em 0;
+    font-size: 1.3rem;
+    display: flex;
+    text-align: left;
+   
+}
 @media (max-width: 1200px){
     .cabecalho{
         padding: 10%;
@@ -140,27 +154,22 @@ body{
     }
     .apresentacao__about{
         flex-direction: column-reverse;
-        padding: 5%
+        padding: 5%;
     }
     .aboutimg{
-        width: 100%
+        width: 60%;
     }
 
 }
-
-.apresentacao__conteudo__texto__sub{
-    
-    padding-bottom: 1.5rem;
-    font-size: 2.16rem;
+.apresentacao_about{
+    padding: 5% 15%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    gap: 15%;
-    color: var(--cor-secundaria);
-
+    gap: 82px;
+    background-color: rgb(52, 59, 97);
+    
 }
-
-
 .apresentacao__conteudo__texto__about{
     margin: 0%;
     padding-bottom: 1.5rem;
@@ -170,22 +179,18 @@ body{
     justify-content: space-between;
     gap: 10%;
     color: var(--cor-secundaria);
+
 }
 .itens__hardware{
     font-size: 1.55rem;
     margin-left: 2rem;
     text-decoration: none;
+
 }
 .linkshardware{
     text-decoration: none;
     color: var(--cor-secundaria);
-}
 
-.aboutimg{
-    height: 50%;
-    border: #000;
-    border-style: solid;
-    border-radius: 8px;
 }
 
 .apresentacao__about{
@@ -195,13 +200,33 @@ body{
     justify-content: space-between;
     gap: 82px;
     padding-bottom: 10%;
-}
 
-.rodape__about{
-    color: var(--cor-secundaria);
-    background-color: var(--cor-terciaria);
-    padding: 25px;
+}
+.conteudos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0%;
+    max-width: 1600px;
+
+}
+.conteudos > div{
+    flex: 1 1 200px;
+    margin: 0 10px;
+    max-width: 800px;
+    max-height: 100%;
+
+}
+.apresentacao_conteudo_flex{
+  padding: 5%;
+  margin: 10%;
+
+}
+.conteudos img{
+    max-width: 100%;
+
+}
+.conteudos p{
     text-align: center;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
